@@ -9,4 +9,4 @@ before_install:
   - docker build -t deeptinair/docker-react -f Dockerfile.dev .
 
 script: 
-  - docker run -e CI=true deepttinair/docker-react npm run test
+  - docker run -e CI=true deeptinair/docker-react npm run test
